@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quotes App</title>
+        <link rel="website icon" type="png" href="logo.png" />
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Dancing+Script:wght@400;500;600;700&family=Jomhuria&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Open+Sans:ital,wght@1,300&family=Poppins&display=swap" rel="stylesheet">
+        <!-- another google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Dancing+Script:wght@400;500;600;700&family=Jomhuria&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Open+Sans:ital,wght@1,300&family=Poppins&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- bootstrap file -->
+        <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" />
+        <!-- main style sheet -->
+        <link rel="stylesheet" href="index.css" />
+
+    </head>
+    <body>
+
+        <header class="min-vh-100 text-white text-center p-5 d-flex flex-column gap-5 align-items-center justify-content-center fw-bold">
+            <h1>Quote of the day</h1>        
+            <button onclick="displayQuotes()" class="btn btn-outline-light rounded-pill py-3 px-5 mt-5 fs-1">New Quote</button>
+            <div id="quote" class="text-center fs-3 fw-light">
+                
+            </div>
+            <div id="author" class="text-center fs-3 fw-light">
+                
+            </div>
+            <div class="doma d-flex justify-content-center align-items-center bg-black rounded-circle position-fixed z-3">
+                <a href="#" class="d-flex justify-content-center align-items-center">
+                    <img src="logo.png" alt="logo" class="w-100" />
+                </a>
+            </div>
+        </header>
+
+        <!-- JavaScript Files -->
+        <script src="index.js"></script>
+    </body>
+</html>

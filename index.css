@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Dancing Script', cursive;
+}
+header {
+    background-image: url("Nature\ Night\ 4k\ Ultra\ HD\ Wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+#quote,#author {
+    font-family: 'Teko', sans-serif;
+    word-spacing: 3px;
+}
+
+.doma {
+    bottom: 50px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
